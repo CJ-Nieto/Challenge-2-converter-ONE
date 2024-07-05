@@ -1,3 +1,7 @@
+<p align="center">
+  	<img width="auto" height="auto" src="img/Badge_Convert_ONE.png">
+</p>
+
 # Conversor de Monedas en Java
 
 Este es un proyecto en Java para un **Conversor de Monedas**, mi solución para el segundo desafío de programación de Oracle Next Generation (ONE) de Alura, que permite a los usuarios convertir entre diferentes monedas usando tasas de cambio actuales. El proyecto también incluye una funcionalidad para ver el historial de conversiones realizadas.
@@ -9,8 +13,21 @@ El programa usa la API de [ExchangeRate-API](https://www.exchangerate-api.com/) 
 ### Funcionalidades
 
 - **Convertir monedas:** Convierte una cantidad de una moneda a otra usando tasas de cambio actuales.
+<p align="center">
+  	<img width="auto" height="auto" src="img/convert_01.png">
+</p>
+<p align="center">
+  	<img width="auto" height="auto" src="img/convert_02.png">
+</p>
+<p align="center">
+  	<img width="auto" height="auto" src="img/convert_03.png">
+</p>
+
 - **Historial de conversiones:** Muestra un historial de todas las conversiones realizadas durante la sesión.
 - **Manejo de errores:** Validación de entradas para asegurar que las opciones de moneda sean válidas y los montos sean números válidos.
+<p align="center">
+  	<img width="auto" height="auto" src="img/valid_history.png">
+</p>
 
 ## Tecnologías utilizadas
 
@@ -34,7 +51,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
 1. **Clona el repositorio**
 
    ```bash
-   git clone https://github.com/tu_usuario/conversor-monedas-java.git
+   git clone https://github.com/CJ-Nieto/Challenge-2-converter-ONE
    ```
 
 2. **Abre el proyecto en IntelliJ IDEA**
@@ -97,6 +114,10 @@ Para ejecutar el programa:
    - **1. Convertir monedas**
    - **2. Ver historial de conversiones**
    - **3. Salir**
+  
+   <p align="center">
+  	<img width="auto" height="auto" src="img/options.png">
+   </p>
 
    Sigue las instrucciones en pantalla para ingresar la cantidad, seleccionar las monedas de origen y destino, o para ver el historial de conversiones.
 
@@ -129,9 +150,9 @@ Asegúrate de que el archivo `currencyNames.json` esté ubicado en la carpeta `s
 
 Si prefieres un sistema de logging más avanzado, considera usar uno de estos frameworks:
 
-[SLF4J](https://www.slf4j.org/): Interfaz de logging común para diferentes implementaciones de logging.
-[Log4j](https://logging.apache.org/log4j/2.x/): Biblioteca de logging avanzada para aplicaciones Java.
-[Logback](https://logback.qos.ch/): Implementación de SLF4J más moderna y rica en características.
+- [SLF4J](https://www.slf4j.org/): Interfaz de logging común para diferentes implementaciones de logging.
+- [Log4j](https://logging.apache.org/log4j/2.x/): Biblioteca de logging avanzada para aplicaciones Java.
+- [Logback](https://logback.qos.ch/): Implementación de SLF4J más moderna y rica en características.
 
 >[!NOTE]
 >## Ejemplo con SLF4J y Logback
@@ -178,4 +199,4 @@ Las contribuciones al proyecto son bienvenidas. Si deseas contribuir, sigue esto
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE.md) para más detalles.
