@@ -2,7 +2,7 @@
   	<img width="auto" height="auto" src="img/Badge_Convert_ONE.png">
 </p>
 
-# Conversor de Monedas en Java
+# Conversor de Monedas en Java - Oracle y Alura Challenge
 
 Este es un proyecto en Java para un **Conversor de Monedas**, mi solución para el segundo desafío de programación de Oracle Next Generation (ONE) de Alura, que permite a los usuarios convertir entre diferentes monedas usando tasas de cambio actuales. El proyecto también incluye una funcionalidad para ver el historial de conversiones realizadas.
 
